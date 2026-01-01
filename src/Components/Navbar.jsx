@@ -7,13 +7,15 @@ const Navbar = () => {
         <a className="hover:text-[#00a86b] transition-colors">Home</a>
       </li>
       <li>
-        <a className="hover:text-[#00a86b] transition-colors">Documents</a>
+        <a className="hover:text-[#00a86b] transition-colors">Farming Guides</a>
       </li>
       <li>
-        <a className="hover:text-[#00a86b] transition-colors">Interview</a>
+        <a className="hover:text-[#00a86b] transition-colors">Crop Details</a>
       </li>
       <li>
-        <a className="hover:text-[#00a86b] transition-colors">Photographs</a>
+        <a className="hover:text-[#00a86b] transition-colors">
+          Pest control Strategies
+        </a>
       </li>
       <li>
         <a className="hover:text-[#00a86b] transition-colors">Contact</a>
@@ -55,7 +57,7 @@ const Navbar = () => {
           </div>
           {/* Brand Logo/Title */}
           <a className="btn btn-ghost text-xl font-extrabold tracking-tighter text-[#00a86b]">
-            LIBERATION <span className="text-white">WAR</span>
+            AGRICULTURAL<span className="text-white">INFO</span>
           </a>
         </div>
 

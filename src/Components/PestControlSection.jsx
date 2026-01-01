@@ -50,7 +50,7 @@ export default function PestControlSection() {
             alt="Pest Management"
           />
           <div className="lg:pl-10">
-            <h1 className="text-5xl font-extrabold text-[#00a86b] mb-6 tracking-tight">
+            <h1 className="text-5xl font-extrabold text-[#e53935] mb-6 tracking-tight">
               Pest Control Strategies
             </h1>
             <p className="py-2 text-gray-400 leading-relaxed text-justify">
@@ -69,10 +69,10 @@ export default function PestControlSection() {
 
       <div className="container mx-auto px-6 mt-16">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-[#00a86b]">
+          <h2 className="text-3xl font-bold text-[#e53935]">
             STRATEGY REPOSITORY
           </h2>
-          <div className="h-1 w-20 bg-[#00a86b] mx-auto mt-2"></div>
+          <div className="h-1 w-20 bg-[#e53935] mx-auto mt-2"></div>
         </div>
 
         {/* 4. Categorization Filters */}
@@ -84,8 +84,8 @@ export default function PestControlSection() {
                 onClick={() => setFilter(cat)}
                 className={`btn btn-sm rounded-full px-6 transition-all ${
                   filter === cat
-                    ? "bg-[#00a86b] border-none text-white"
-                    : "btn-outline text-gray-400 border-gray-700 hover:bg-[#00a86b] hover:text-white"
+                    ? "bg-[#e53935] border-none text-white"
+                    : "btn-outline text-gray-400 border-gray-700 hover:bg-[#e53935] hover:text-white"
                 }`}
               >
                 {cat}
@@ -99,18 +99,18 @@ export default function PestControlSection() {
           {filteredStrategies.map((item) => (
             <div
               key={item.id}
-              className="bg-[#1e1e1e] p-6 rounded-2xl border border-gray-800 shadow-xl hover:border-[#00a86b] transition-all group"
+              className="bg-[#1e1e1e] p-6 rounded-2xl border border-gray-800 shadow-xl hover:border-[#e53935] transition-all group"
             >
               <div className="flex justify-between items-start">
-                <span className="text-[10px] font-bold text-[#00a86b] uppercase tracking-widest">
+                <span className="text-[10px] font-bold text-[#e53935] uppercase tracking-widest">
                   {item.category} • {item.remedy}
                 </span>
-                <span className="text-[10px] bg-red-900/20 text-green-400 px-2 py-1 rounded border border-red-900/30">
+                <span className="text-[10px] bg-red-900/20 text-red-400 px-2 py-1 rounded border border-red-900/30">
                   Target: {item.target}
                 </span>
               </div>
 
-              <h3 className="text-xl font-bold mt-4 text-white group-hover:text-[#00a86b] transition-colors">
+              <h3 className="text-xl font-bold mt-4 text-white group-hover:text-[#e53935] transition-colors">
                 {item.title}
               </h3>
               <p className="text-gray-500 text-sm mt-3 leading-relaxed">
@@ -125,7 +125,7 @@ export default function PestControlSection() {
               </div>
 
               {/* Action Button as requested */}
-              <button className="btn btn-sm btn-block bg-[#00a86b] hover:bg-[#008a58] text-white border-none mt-5">
+              <button className="btn btn-sm btn-block bg-[#e53935] hover:bg-[#c62828] text-white border-none mt-5">
                 Identify & Treat
               </button>
             </div>

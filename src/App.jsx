@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Slider from "./Hero_Section/Slider";
-import FarmingSection from "./Components/Farming_section";
-
+import FarmimgCropSection from "./Components/FarmingCropSection";
+import PestControlSection from "./Components/PestControlSection";
 const App = () => {
   return (
     <>
       <Navbar />
       <Slider />
-      <FarmingSection />
+      <FarmimgCropSection />
+      <PestControlSection />
     </>
   );
 };

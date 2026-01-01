@@ -18,27 +18,27 @@ const Slider = () => {
   const slidesData = [
     {
       id: 1,
-      title: "Bangladesh Liberation War Archive",
+      title: "Empowering Farmers through Digital Innovation",
       description:
-        "Explore the historic documents and rare collections of 1971.",
+        "Access AI-powered crop diagnostics and modern farming techniques at your fingertips.",
       image: heroImg1,
-      buttonText: "Explore Archive",
+      buttonText: "Diagnose Crop",
     },
     {
       id: 2,
-      title: "Voices of Freedom Fighters",
+      title: "Data-Driven Agriculture for Better Yields",
       description:
-        "Listen to the firsthand testimonies of those who fought for us.",
+        "Get real-time weather alerts and soil health insights to optimize your harvest.",
       image: heroImg2,
-      buttonText: "Listen Interviews",
+      buttonText: "Market Insights",
     },
     {
       id: 3,
-      title: "Rare Historical Documents",
+      title: "Real-Time Market Prices & Insights",
       description:
-        "Access official treaties, declarations, and correspondence.",
+        "Stay updated with the latest wholesale rates from across the country to get the best price for your produce.",
       image: heroImg3,
-      buttonText: "View Documents",
+      buttonText: "Identify Disease",
     },
   ];
 

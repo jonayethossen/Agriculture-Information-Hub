@@ -3,6 +3,8 @@ import Navbar from "./Components/Navbar";
 import Slider from "./Hero_Section/Slider";
 import FarmimgCropSection from "./Components/FarmingCropSection";
 import PestControlSection from "./Components/PestControlSection";
+import ContactFormSection from "./Components/Contract";
+import FooterSection from "./Components/Footer";
 const App = () => {
   return (
     <>
@@ -10,6 +12,8 @@ const App = () => {
       <Slider />
       <FarmimgCropSection />
       <PestControlSection />
+      <ContactFormSection />
+      <FooterSection />
     </>
   );
 };

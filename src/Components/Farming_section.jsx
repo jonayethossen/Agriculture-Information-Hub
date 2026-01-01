@@ -6,27 +6,27 @@ export default function FarmingSection() {
   const [documents] = useState([
     {
       id: 1,
-      title: "Instrument of Surrender",
-      type: "Treaty",
-      date: "16 Dec 1971",
-      source: "National Museum",
-      desc: "Official surrender of Pakistan Army.",
+      title: "Grains (Rice, Wheat)",
+      type: "",
+      date: "Rabi ",
+      seasons: "Winter",
+      desc: "Covers soil preparation, irrigation, and organic fertilization.",
     },
     {
       id: 2,
-      title: "Independence Declaration",
-      type: "Declaration",
-      date: "26 Mar 1971",
-      source: "Govt Archive",
-      desc: "Radio broadcast by Bangabandhu.",
+
+      title: "Cash Crops (Jute, Tea)",
+      date: "Kharif-1",
+      seasons: "Summer",
+      desc: "A numbered list of tasks from seed selection to harvesting.",
     },
     {
       id: 3,
-      title: "Mujibnagar Govt Letter",
-      type: "Correspondence",
-      date: "April 1971",
-      source: "Official Records",
-      desc: "Formal government correspondence.",
+
+      title: "Vegetables, Fruits",
+      date: "Kharif-1",
+      seasons: "Summer",
+      desc: "Highlighting Best Practices to help farmers avoid common mistakes and maximize their yield.",
     },
   ]);
 
@@ -62,7 +62,7 @@ export default function FarmingSection() {
         </div>
       </div>
 
-      {/* Documents Catalog */}
+      {/* FARMING GUIDES CATALOG */}
       <div className="container mx-auto px-6 mt-16">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-[#00a86b]">
@@ -107,7 +107,22 @@ export default function FarmingSection() {
 
               <div className="mt-6 pt-4 border-t border-gray-800 flex justify-between items-center text-[11px] text-gray-400">
                 <span>{doc.date}</span>
-                <span className="italic">Source: {doc.source}</span>
+                <span className="italic">
+                  seasons:{" "}
+                  {
+                    <html lang="en" className="seasons">
+                      <head>
+                        <meta charset="UTF-8" />
+                        <meta
+                          name="viewport"
+                          content="width=device-width, initial-scale=1.0"
+                        />
+                        <title>Document</title>
+                      </head>
+                      <body></body>
+                    </html>
+                  }
+                </span>
               </div>
 
               <button className="btn btn-xs btn-outline mt-5 w-full border-gray-700 text-gray-400 hover:bg-[#00a86b] hover:text-white">
